@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>گالری کانون فرهنگی تربیتی برهان</title>
+    <link rel="icon"  href="logo.png">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body{
+        margin: 1vw;
+      }
+      *{
+        font-family: "Vazirmatn", sans-serif;
+      }
+      .key{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        position: sticky;
+        top: 2vw;
+        z-index: 100;
+
+        margin: 2vw 28vw;
+        padding: 1.5vw;
+
+        border-radius: 5vw;
+        background-color: #0a3b7a;
+      }
+      .key_1{
+        color: white;
+        cursor: pointer;
+        /* padding-right: 2vw; */
+      }
+      .key_2{
+        color: white;
+        cursor: pointer;
+        /* padding-right: 4vw; */
+      }
+
+/* قسمت گالری */
+     .namaiesh_galery{
+      display: none;
+      grid-template-columns: repeat(2,1fr);
+      gap: 1vw;
+     }
+     .namaiesh{
+      display: flex;
+      flex-direction:column ;
+      align-items: center;
+      gap: 1vw;
+     }
+     img , video , .card{
+      width:48vw;
+      border-radius: 3vw;
+     }
+
+
+      h5,h3 {
+        color: #0a3b7a;
+        margin: 0px;
+      }
+
+      h6,h4 {
+        color: #666;
+        margin: 0px;
+      }
+      
+/* قسمت مطالعه */
+      .namaiesh_sot{
+        display: none;
+      }
+      
+      .img_sot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 94vw;
+        padding: 1vw;
+        margin-bottom: 1vw;
+
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+      }
+      .img_sot:hover{
+        transform: translateY(-5px);
+      }
+      audio{
+        width: 64.008vw;
+        padding: 3vw;
+        height: 6vw;
+      }
+      .img_sot img{
+        width: 23.992vw;
+      }
+      .matn{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        padding: 3vw;
+      }
+      
+
+      .active{
+              display: grid;
+            }
+     /* @media (min-width: 500px) {
+      body{
+        margin-top: 1vw;
+      }
+      .namaiesh_galery{
+        grid-template-columns: repeat(3,1fr);
+        gap: 0vw;
+      }
+      img , video{
+        width:31.5vw;
+        border-radius: 3vw;
+      }
+     } */
+    </style>
+  </head>
+
+  <body>
+    <div class="key">
+      <div class="key_1" onclick="showMedia('g')">ویترین</div>
+      <div class="key_2" onclick="showMedia('s')">صندوقچه</div>
+    </div>
+<!-- قسمت تصویر -->
+    <div class="namaiesh_galery media-content active" id="g">
+<!-- سمت راست ویترین -->
+      <div class="namaiesh">
+
+        <div class="card">
+          <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/ssd17io/vt/frame?muted=true&recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>        </div>
+        <h5>سخنرانی شب دوم محرم</h5>
+        <h6>ویدئو سخنرانی ۱۴۰۵/۰۳/۲۶.</h6>
+        
+        <img src="img/photo27938096334.jpg" alt="">
+        <img src="img/photo27938096494.jpg" alt="">
+        <img src="img/photo27938096606.jpg" alt="">
+        <div class="card">
+          <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 3vw;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/sjliox3/vt/frame?muted=true&recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+        </div>
+        <h5>سخنرانی شب سوم محرم</h5>
+        <h6>ویدئو سخنرانی ۱۴۰۵/۰۳/۲۷.</h6>
+
+        <div class="card">
+          <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/inx059i/vt/frame?muted=true&recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>        </div>
+        <h5>سخنرانی شب پنجم محرم</h5>
+        <h6>ویدئو سخنرانی ۱۴۰۵/۰۳/۲۹.</h6>
+
+        <div class="card">
+          <div id="35077485918"><script type="text/JavaScript" src="https://www.aparat.com/embed/gox8d77?data[rnddiv]=35077485918&data[responsive]=yes&muted=true&recom=self"></script></div>        </div>
+        <h5>سخنرانی شب ششم محرم</h5>
+        <h6>ویدئو سخنرانی ۱۴۰۵/۰۳/۳۰.</h6>
+
+        <video controls>
+          <source src="videosvideo2.mp4" type="video/mp4" />
+        </video>
+        <h5>عزاداری امام حسین(ع)</h5>
+        <h6> گزارش ویدئویی محرم ۱۳۹۶/۰۳/۲۵.</h6>
+        
+      </div>
+<!-- سمت چپ ویترین -->
+      <div class="namaiesh">
+        <video controls>
+          <source src="videosvideo1.mp4" type="video/mp4" />
+        </video>
+        <h5>اردو تهران</h5>
+        <h6>ویدئو یکی از بچه ها از شهربازی.</h6>
+
+        <img src="imagesphoto1.jpg" />
+        <h5>تواشیح در حضور بزرگان</h5>
+        <h6>تصویری از یکی از تواشیح بچه ها.</h6>
+
+        <img src="imagesphoto2.jpg" />
+        <h5>مسابقات پینت بال</h5>
+        <h6>تصاویر مسابقات تیمی.</h6>
+
+        <img src="imagesphoto3.jpg" />
+        <h5>اردوی فرهنگی</h5>
+        <h6>گزارش تصویری اردوی فرهنگی اعضای کانون.</h6>
+      </div>
+      
+      
+    </div>
+<!-- قسمت صوت -->
+    <div class="media-content namaiesh_sot" id="s">
+
+      <div class="namaiesh">
+        <div class="img_sot">
+          <img src="https://search.eitaa.com/?url=https://files.emalls.ir/files/Products/automatic/15165450/fttakf1l_thumb3.jpg" alt="">
+          <div class="namaiesh">
+            <h5>پادکست ازدواج</h5>
+            <h6>چگونه با تست همدیگر را بشناسیم.</h6>
+            <audio controls preload="metadata">
+              <source src="audio/ezdevaj.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>
+        
+        <div class="img_sot">
+          <img src="https://search.eitaa.com/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgHUXjWq8EQt_cc1aDtCRGg9apZXusiGDhlMo6uFdORg&amp;s=10" alt="">
+          <div class="namaiesh">
+            <h5>جلسه اول خدا شناسی</h5>
+            <h6>نگو چیکار بکنم, بگو چیکار نکنم.</h6>
+            <audio controls preload="metadata">
+              <source src="audio/khodashenasi.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>
+
+        <div class="img_sot">
+          <img src="https://search.eitaa.com/?url=https://monoppy.ir/wp-content/uploads/2023/04/discover-your-path-with-individual-development-plan-Monoppy-1.jpg" alt="">
+          <div class="namaiesh">
+            <h5>مباحث مسیر ناهموار موفقیت</h5>
+            <h6>مبحث سوم_چند ضلع موفقیت.</h6>
+            <audio controls preload="metadata">
+              <source src="audio/neshast3.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>  
+
+        <div class="img_sot">
+          <img src="https://search.eitaa.com/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAhRqOcYBNjmAnmFf5j_79QzBDMlnwc7WdJollSB5cd4zlokxvbpE4aA0&amp;s=10" alt="">
+          <div class="namaiesh">
+            <h5>کتاب صوتی سمفونی مردگان</h5>
+            <h6>بخش اول</h6>
+            <audio controls preload="metadata">
+              <source src="audio/samfoni/song01.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>  
+
+        <div class="img_sot">
+          <img src="https://search.eitaa.com/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAhRqOcYBNjmAnmFf5j_79QzBDMlnwc7WdJollSB5cd4zlokxvbpE4aA0&amp;s=10" alt="">
+          <div class="namaiesh">
+            <h5>کتاب صوتی سمفونی مردگان</h5>
+            <h6>بخش دوم</h6>
+            <audio controls preload="metadata">
+              <source src="audio/samfoni/song02.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>  
+
+        <div class="img_sot">
+          <img src="https://search.eitaa.com/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAhRqOcYBNjmAnmFf5j_79QzBDMlnwc7WdJollSB5cd4zlokxvbpE4aA0&amp;s=10" alt="">
+          <div class="namaiesh">            
+            <h5>کتاب صوتی سمفونی مردگان</h5>
+            <h6>بخش سوم</h6>
+            <audio controls preload="metadata">
+              <source src="audio/samfoni/song03.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>  
+
+        <div class="img_sot">
+          <img src="" alt="">
+          <div class="namaiesh">            
+            <h5>کتاب صوتی سمفونی مردگان</h5>
+            <h6>بخش چهارم (آخر) به زودی...</h6>
+            <audio controls preload="metadata">
+              <source src="audio/samfoni/song04.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>
+
+        <div class="img_sot matn">
+
+                  <h3>سلسه نشست های مسیر ناهموار موفقیت ۳</h3>
+
+                  <h4>
+                    🔺کارِ مردان روشنی و گرمی است
+                    <br>
+                    <br>
+                    در این شعرِ مولانا، "روشنی" می‌تواند به دانش‌اندوزی و روشن‌بینی نظر داشته باشد و "گرمی" به حال خوب و خدمت به مردُم و سلوک معنوی. به عبارت روشن‌تر به آموزش و پرورش.
+                    <br>
+                    <br>
+                    امروز در کانون فرهنگی تربیتی آیة الله برهان ره نشستی داشتیم. <br>
+                    موضوع نشست "مسیر ناهموار پیشرفت" بود. <br>
+                    مهمانان این نشست آقایان دکتر حسین بدری و مهندس اصغر محمودی بودند. <br>
+                    هر دو بزرگوار از راهِ طی‌شدهٔ خود گفتند و نکته‌ها سُفتند. <br>
+                    نکتهٔ مشترک هر دو، محرومیت نسبی مالی در آغاز راه بود. که البته در سایهٔ دانش‌دوستی و معنویت و تربیت خانوادگی این محرومیت، قابل تحمل می‌شود.
+                    در ادامه به جنبه معنوی خانه و خانواده پرداخته شد و این‌که این سخت‌کوشی‌ها و موفقیت‌های علمی و شغلی مانع از رشد و تربیت دینی خانه و خانواده نشد. هر دو بزرگوار در تشکیل و مشارکت در مراسم دینی موفق‌اند و خود و فرزندان‌شان در مسجد و حسینیه و هیئت حضور خوبی دارند. کتاب می‌خوانند و دغدغه فرهنگ دارند.
+                    <br>
+                    <br>
+                    در این میان آقای امید حیدرلو یک پرسشِ به‌جا و چالشی از دکتر بدری مطرح کرد: با وجود موقعیت شغلی مناسب چرا کشور آمریکا را برای ادامه زندگی برگزیدید.
+                    پاسخ دکتر حسین این بود: به دو دلیل
+                    <br>
+                    <br>
+                    ۱. اشتیاق به دیدن فضاهای علمی به‌روزتر <br>
+                    ۲. امکان درآمد بیشتر برای رسیدگی به کارهای خیر و عام المنفعه.
+                    <br>
+                    <br>
+                    و انصافا خاندان معزز بدری در این جنبه سرآمدند و در رسیدگی به نیازهای مستمندان و مراکز فرهنگی و مددجویی پیشتازند.
+                    <br>
+                    <br>
+                    در پایان از دو بزرگوار توصیه و نصیحت خواستیم. مهندس محمودی توصیه کرد که نوجوانان و جوانان به شعور و آگاهی بپردازند و از شور ناآگاهانه بپرهیزند. رصد لحظه‌ای کانال‌ها و سایت‌های خبری و پرسه‌زدن در اینستاگرام نمونه‌ای از شور بی‌جا و زیان‌بار است.
+                    دکتر بدری هم نوجوانان و جوانان را از نشست و برخاست با افراد منفی‌باف و نیز محیط سمّی پرهیز داد و گفت سیاه‌نماییِ دوستان و خانواده از وضعیت کشور، آفتی است که می‌تواند جوانان را نسبت به آینده ناامید کند.
+                    <br>
+                    <br>
+                    جلسه بسیار سودمند و پربار بود. <br>
+                    بنده لذت بردم و لازم می‌دانم از دو  دانشمند فرهیخته آقایان محمدعلی محمودی و محمدحسن بحرینی که زمینه و امکان این نشست را فراهم کردند تشکر کنم. <br>
+                    از حضور و استقبال گرم سروران خانمها و اقایان هم کمال قدردانی را دارم. <br>
+
+                  </h4>
+
+                  <h5 style="color:#0A3B7A;">نویسند : کوچک‌ترین شما صادق محمودی</h5>
+                  <h5 style="color: #7cbf1ec1;">۱۴۰۵٫۳٫۲۳</h5>
+
+              </div>  
+
+      </div>
+      
+      
+    </div>
+    <script>
+      function showMedia(id) {
+        document.querySelectorAll(".media-content").forEach((item) => {
+          item.classList.remove("active");
+        });
+
+        document.getElementById(id).classList.add("active");
+      }
+    </script>
+  </body>
+</html>
